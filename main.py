@@ -26,9 +26,11 @@ def kombinatorika():
     second = d / c
 
     if first > second:
-        print("Tas ir iespējamais kombinācijas skaits: ", (math.factoriab(b)))
+        print("Tas ir iespējamais kombinācijas skaits: ", (math.factorial(b)))
     elif first < second:
         print("Tas ir iespējamais kombinācijas skaits: ", (math.factorial(d)))
     elif first == second:
         print("Tas ir iespējamais kombinācijas skaitss(Pirma loterijai): ", (math.factorial(b)))
         print("Tas ir iespējamais kombinācijas skaitss(Otra loterijai): ", (math.factorial(d)))
+        
+kombinatorika()
