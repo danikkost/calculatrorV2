@@ -17,8 +17,18 @@ def varbutiba():
         print("Otras loterejas uzvaras procents ir lielaks un viņš ir", second, "%")
     elif first == second:
         print("Pirmas un otras loterejas uzvaras procents ir vienads un viņš ir", first, "%")
+        
+varbutiba()
 
 def kombinatorika():
 
+    first = b / a
+    second = d / c
 
-    print(math.factorial(a))
+    if first > second:
+        print("Tas ir iespējamais kombinācijas skaits: ", (math.factoriab(b)))
+    elif first < second:
+        print("Tas ir iespējamais kombinācijas skaits: ", (math.factorial(d)))
+    elif first == second:
+        print("Tas ir iespējamais kombinācijas skaitss(Pirma loterijai): ", (math.factorial(b)))
+        print("Tas ir iespējamais kombinācijas skaitss(Otra loterijai): ", (math.factorial(d)))
